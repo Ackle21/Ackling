@@ -1,0 +1,39 @@
+Begin LargestToSmallest
+Separation between environment and title
+Output title
+Output underline for title
+Separation between title and output
+initialize numbersEntered to 0
+initialize inputtedNumber
+initialize average
+initialize sum
+output message telling the user what to enter and how to end the input
+output message for first input
+input get number1
+initialize smallestNumber to inputtedNumber
+initialize largestNumber to inputtedNumber
+loop until sentinel (-99)
+	if inputtedNumber < smallestNumber
+		then inputtedNumber = smallestNumber
+	if inputtedNumber > largestNumber
+		then inputtedNumber = largestNumber
+	increment numbersEntered by 1
+	calculation sum = sum + inputtedNumber
+	separation between outputs
+	output message for all other numbers
+	input next number assigned to inputtedNumber
+end loop
+if no numbers entered
+	then error message
+else continue with the program
+calculation average = sum / numbersEntered
+separation between output and title
+output title
+output lines for title
+separation between title and output
+output message for largest number and largestNumber
+output message smallest number and smallestNumber
+output message for average and average
+separation between output and environment
+end LargestAndSmallest
+

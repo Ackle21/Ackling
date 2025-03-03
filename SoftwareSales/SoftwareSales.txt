@@ -1,0 +1,27 @@
+Start        SoftwareSales
+Output       Separation between environment and Title
+Output       Title
+Output       Dashed Lines 
+Output       Separation between Dashed Lines and Output
+Output       User message for input 1
+Input        Get number1
+if           #1 >= 100
+     then         discount = .50
+if else      #1 >= 50 
+     then         discount = .40
+if else      #1 >= 20 
+     then         discount = .30
+if else      #1 >= 10 
+     then         discount = .20
+else         discount = 0
+Calculations #1 * discount = Total
+Output       Separation between input and title
+Output       Title
+Output       Dashed Lines
+Output       Separation between dashed lines and output
+Output       Text for Number 1 + number1
+Output       Text for Discount + discount
+Output       Separation between Output and Output
+Output       Text for Total + amountTotal
+Output       Separation between Output and environment
+End          SoftwareSales
