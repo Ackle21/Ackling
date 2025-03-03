@@ -1,0 +1,19 @@
+Begin BarChart
+Separation between environment and title
+output title
+output lines for title
+separation between title and output    
+begin for loop
+        Output message for store's sales
+        input sales for stores
+        separation between output and the next output
+        calculation number of asterisks needed (sales / asterisks)
+        output store number to message
+        begin for loop for amount of asterisks
+        	Add asterisks for each $100 of sales
+        end for loop
+	output separation
+end for loop
+output Sales Bar message and asterisks
+separation of output from environment
+end BarChart

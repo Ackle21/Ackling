@@ -1,0 +1,54 @@
+Begin ESP
+Create Random object
+separation between title and input
+output title
+output dashed line
+separation between title and output
+begin for loop     
+        Get random color
+        Get user's color
+        set user's color to equal random color
+	if the two are the same
+		then increment counter
+end for loop
+count guesses 
+
+method ComputersColor
+Create Random object
+Limit for the random numbers
+if number is 0
+        then color is red
+else if number is 1
+        then color is green
+else if number is 2
+        then color is blue
+else if number is 3
+        then color is orange
+else if number is 4
+	then color is yellow
+returns the color the computer guesses
+method end
+
+method user color      
+output message about colors to choose from
+input the guessed number
+separation between input and output
+output computer's color
+return the guessed color
+end method
+
+method compare
+if the two equal each other
+        then it returns true
+else
+	then returns false
+end method
+
+method Counting guesses
+separation between input and output
+output number of correct guesses
+separation between environment and output
+end method
+
+End ESP
+

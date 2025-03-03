@@ -1,0 +1,22 @@
+start of EvenOdd
+for loop start
+	returns next random number as an integer
+	if the random number is even
+		then even numbers increases
+	else
+		then odd numbers increases
+for loop end
+separation between environment and title
+output title
+output dashed lines
+separation between title and output
+output message for even numbers and amountOfEvenNumbers
+output message for odd number + amountOfOddNumbers
+separation between output and environment
+
+method for determining whether the random number is even or odd
+if random number % 2 = 0
+	then random number is true
+else
+	then random number is false
+End of EvenOdd

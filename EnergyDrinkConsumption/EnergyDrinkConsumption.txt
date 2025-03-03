@@ -1,0 +1,10 @@
+Start  Energy Drink Consumption
+Output Separation between environment and Title
+Output Title (Energy Drink Consumption
+Output Separation between Title and Output
+Output Number of people surveyed: 12467
+Output Separation between number of people and output
+Output Approximation of people who bought an energy drink each week + NumberOfPeopleWhoBuyEnergyDrinksWeekly
+Output Amount of those buyers who enjoy Citrus-Flavored energy drinks + AmountThatEnjoyCitrusFlavoredEnergyDrinks
+Output Separation between Output and Environment
+End    Energy Drink Consumption

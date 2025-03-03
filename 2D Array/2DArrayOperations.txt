@@ -1,0 +1,83 @@
+Start ArrayOperations2D
+	variable initialization
+	separates title from environment
+	Output Title
+	Separates title from output
+	Output total of numbers
+	Output average of all numbers in array
+	output sum of first row
+	output sum of second row
+	output sum of third row
+	output sum of first column
+	output sum of second column
+	output sum of third column
+	output highest number in first row
+	output highest number in second row
+	output highest number in third row
+	output lowest number in first row
+	output lowest number in second row
+	output lowest number in third row
+	separate output from environment
+
+	Start Method getTotal
+	initalize total to zero
+	start for loop for going through rows
+		start for loop going through columns in row
+			calculate total
+		end for loop
+	end for loop
+	output total
+	return total
+	End Method getTotal
+   
+	Start Method getAverage
+	initialize total to zero
+	initialize average to zero
+	start for loop for going through rows
+		start for loop going through columns in row
+			calculate total
+		end for loop
+	end for loop
+	calculate average
+	output average
+	return average
+	End Method getAverage
+
+	Start Method getRowTotal
+	initialize sum of row numbers to zero
+	start for loop for going through every column in row
+		calculate sum of row numbers
+	end for loop
+	output row number and sum of row
+	return total of row
+	End Method getRowTotal
+
+	Start Method getColumnTotal
+	initialize total of column to zero
+	start for loop that goes through every number in column
+		calculate total of all numbers in column
+	output row number and sum of column
+	return total of column
+	End Method getColumnTotal
+
+	Start Method getRowHighest
+	initialize highest number to zero
+	start for loop for determining highest number
+		if next number is higher
+		then higher number is highest number
+	end for loop
+	output highest of row
+	returns highest number
+	End Method getRowHighest
+
+	Start Method getRowLowest
+	initialize lowest number to zero
+	start for loop for determining lowest number
+        	if number is lower
+		then number is lowest number
+	end for loop
+	output lowest of numbers
+	returns lowest of row
+	End Method getRowLowest
+
+End ArrayOperations2D
